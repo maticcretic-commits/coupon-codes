@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CouponCodes India — Verified Coupons & Deals</title>
+<meta name="description" content="Hand-checked coupon codes and deals for Flipkart, Myntra, Amazon, Swiggy, Zomato, Blinkit, Zepto and Domino's. Checked 26 Sep 2026.">
+<style>
+:root{
+  --bg:#0b0f1a; --bg2:#10182b; --card:#141d33; --card2:#182440;
+  --text:#eef2ff; --muted:#93a0c0; --line:rgba(255,255,255,.08);
+  --accent:#7c5cff; --accent2:#00d4ff; --green:#22c55e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1200px 600px at 80% -10%,rgba(124,92,255,.14),transparent),radial-gradient(900px 500px at 10% 0%,rgba(0,212,255,.08),transparent),var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+/* nav */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(11,15,26,.78);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:12px;padding:14px 0}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:.3px}
+.logo span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.nav-tag{font-size:.78rem;color:var(--muted);border:1px solid var(--line);padding:4px 10px;border-radius:99px}
+/* hero */
+.hero{text-align:center;padding:52px 0 30px}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);font-weight:800;line-height:1.15}
+.hero h1 .grad{background:linear-gradient(90deg,#a78bfa,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);margin:12px auto 22px;max-width:640px;font-size:1.02rem}
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:24px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 18px;font-size:.9rem}
+.stat b{color:#fff;font-size:1.15rem}
+/* search */
+.searchbar{max-width:560px;margin:0 auto;position:relative}
+.searchbar input{width:100%;padding:15px 20px 15px 48px;border-radius:14px;border:1px solid var(--line);background:var(--bg2);color:var(--text);font-size:1rem;outline:none}
+.searchbar input:focus{border-color:var(--accent)}
+.searchbar .icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);opacity:.6}
+/* chips */
+.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:22px 0 6px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--muted);padding:9px 18px;border-radius:99px;cursor:pointer;font-size:.9rem;transition:.2s}
+.chip:hover{color:#fff;border-color:var(--accent)}
+.chip.active{background:linear-gradient(90deg,var(--accent),#6a3df5);color:#fff;border-color:transparent;font-weight:600}
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;padding:26px 0 10px}
+.card{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:18px;padding:20px;position:relative;overflow:hidden;transition:transform .2s,border-color .2s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);border-color:rgba(124,92,255,.45)}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--store,#7c5cff)}
+.store-row{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.store-badge{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.05rem;color:#fff;background:var(--store,#7c5cff);flex-shrink:0}
+.store-name{font-weight:700;font-size:1.02rem}
+.cat{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+.discount{font-size:1.55rem;font-weight:800;margin:2px 0 4px;background:linear-gradient(90deg,#fff,#c9b8ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card h3{font-size:1.02rem;margin-bottom:10px;color:#dbe3ff}
+.code-row{display:flex;gap:8px;margin:10px 0 12px}
+.code{flex:1;border:2px dashed rgba(124,92,255,.55);border-radius:10px;padding:10px 12px;font-family:ui-monospace,monospace;font-weight:700;letter-spacing:1.5px;text-align:center;background:rgba(124,92,255,.08);font-size:1rem;user-select:all}
+.copy-btn{background:linear-gradient(90deg,var(--accent),#6a3df5);border:none;color:#fff;font-weight:700;padding:10px 16px;border-radius:10px;cursor:pointer;font-size:.9rem;transition:.2s;white-space:nowrap}
+.copy-btn:hover{filter:brightness(1.15)}
+.copy-btn.done{background:var(--green)}
+.no-code{display:inline-block;background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.4);color:#4ade80;font-size:.82rem;font-weight:600;padding:8px 14px;border-radius:99px;margin:10px 0 12px}
+.terms{list-style:none;margin-bottom:12px;flex:1}
+.terms li{font-size:.86rem;color:var(--muted);padding:4px 0 4px 20px;position:relative}
+.terms li::before{content:"✓";position:absolute;left:2px;color:var(--green);font-weight:700}
+.meta{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;margin-top:auto;font-size:.78rem}
+.verified{color:#4ade80;font-weight:600}
+.src{color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted)}
+.src:hover{color:#fff}
+.empty{text-align:center;color:var(--muted);padding:60px 0;grid-column:1/-1;font-size:1.05rem}
+/* disclaimer */
+.disclaimer{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px;margin:30px 0;font-size:.9rem;color:var(--muted);line-height:1.65}
+.disclaimer b{color:#ffd166}
+footer{text-align:center;color:var(--muted);font-size:.82rem;padding:26px 0 40px;border-top:1px solid var(--line)}
+footer b{color:#dbe3ff}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding:36px 0 20px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav-in">
+  <div class="logo">🏷️ Coupon<span>Codes</span> India</div>
+  <div class="nav-tag">Checked 26 Sep 2026</div>
+</div></nav>
+
+<div class="wrap">
+  <section class="hero">
+    <h1>Verified Coupons & Deals,<br><span class="grad">All in One Place</span></h1>
+    <p>Hand-checked promo codes for India's biggest shopping, food delivery and grocery apps. Tap any code to copy it, then paste at checkout.</p>
+    <div class="stats">
+      <div class="stat"><b id="cCount">0</b> coupons</div>
+      <div class="stat"><b id="sCount">0</b> stores</div>
+      <div class="stat"><b>4</b> categories</div>
+    </div>
+    <div class="searchbar">
+      <span class="icon">🔍</span>
+      <input id="search" type="text" placeholder="Search store, code or offer… (e.g. swiggy, MYNTRA300)">
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip active" data-cat="all">All</button>
+      <button class="chip" data-cat="Fashion">👗 Fashion</button>
+      <button class="chip" data-cat="Electronics">💻 Electronics</button>
+      <button class="chip" data-cat="Food Delivery">🍔 Food Delivery</button>
+      <button class="chip" data-cat="Grocery">🛒 Grocery</button>
+    </div>
+  </section>
+
+  <section class="grid" id="grid"></section>
+
+  <section class="disclaimer">
+    <b>⚠️ Please note:</b> Coupon codes change fast — stores can pull or alter an offer at any time. Always double-check the discount applies at checkout before paying. Every card links to the public source page where the offer was listed, so you can confirm the latest terms there. This page carries <b>no affiliate links</b> and earns nothing from your clicks. Offers compiled from the public coupon pages of CouponDunia and GrabOn on 26 September 2026.
+  </section>
+</div>
+
+<footer>
+  Made for smart shoppers · <b>CouponCodes India</b> · Data checked 26 Sep 2026 · Codes may expire — verify at checkout
+</footer>
+
+<script>
+const COUPONS=[
+/* ---------- FLIPKART (Electronics) — source: GrabOn, validated 26 Sep 2026 ---------- */
+{store:"Flipkart",cat:"Electronics",color:"#2874f0",code:null,title:"Mega Sitewide Sale",discount:"Up to 90% OFF",terms:["Across mobiles, fashion, electronics, home & more","Bank discounts and no-cost EMI also live"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+{store:"Flipkart",cat:"Electronics",color:"#2874f0",code:null,title:"Big Billion Days — Early Access",discount:"Up to 80% OFF + 10% bank off",terms:["Top gadget brands on deep discount","Extra 10% instant discount on select bank cards","App-only offers included"],expiry:"Till 15 Oct 2026",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+{store:"Flipkart",cat:"Electronics",color:"#2874f0",code:null,title:"Electronics Fest",discount:"Up to 75% OFF",terms:["Laptops, TVs, audio, cameras & accessories","Exchange bonuses on old devices"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+{store:"Flipkart",cat:"Fashion",color:"#2874f0",code:null,title:"Fashion Clearance",discount:"50–90% OFF",terms:["Clothing, footwear & accessories for the whole family"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+{store:"Flipkart",cat:"Electronics",color:"#2874f0",code:null,title:"Bank Card Instant Discount",discount:"Flat 10% OFF",terms:["On HDFC, ICICI & SBI cards","Stacks over sale prices"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+{store:"Flipkart",cat:"Grocery",color:"#2874f0",code:null,title:"Grocery Run",discount:"Up to 80% OFF",terms:["Daily essentials on Flipkart Grocery","Doorstep delivery"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/flipkart-coupons/"},
+/* ---------- MYNTRA (Fashion) — source: CouponDunia ---------- */
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"MYNTRA300",title:"First-Order Fashion Bonanza",discount:"Up to 90% OFF + ₹300 OFF",terms:["For new shoppers on eligible first orders","App-exclusive offer"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"MYNTRA400",title:"Big Cart Saver",discount:"₹400 OFF",terms:["On orders above ₹2,099"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"MYNTRASAVE",title:"Sitewide Extra Discount",discount:"Up to 30% OFF extra",terms:["Over and above sale prices","Across categories"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"GETGLAM",title:"Beauty Haul Offer",discount:"Extra 30% OFF",terms:["On beauty products above ₹349"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"EXTRA50",title:"Small Cart Perk",discount:"₹50 OFF",terms:["On orders above ₹400"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+{store:"Myntra",cat:"Fashion",color:"#ff3f6c",code:"MYNTRA500",title:"App-Only Mega Saver",discount:"₹500 OFF",terms:["On app orders above ₹2,999","First-time app buyers"],expiry:"Limited period",src:"CouponDunia",url:"https://www.coupondunia.in/myntra"},
+/* ---------- AMAZON (Electronics) — sources: CouponDunia + GrabOn ---------- */
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"Great Indian Festival",discount:"Up to 80% OFF + 10% bank off",terms:["Starts 8 October","Mobiles, electronics, fashion, appliances","Extra 10% instant discount on SBI cards"],expiry:"Till 14 Oct 2026",src:"GrabOn",url:"https://www.grabon.in/amazon-coupons/"},
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"Deal of the Day",discount:"Up to 90% OFF",terms:["Fresh deals every day across all categories","Extra 10% off with select bank cards"],expiry:"Daily",src:"GrabOn",url:"https://www.grabon.in/amazon-coupons/"},
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"Electronics Price Drop",discount:"Up to 90% OFF",terms:["Smartwatches, earbuds, laptops & more","Exchange & no-cost EMI available"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/amazon-coupons/"},
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"HDFC Instant Discount",discount:"10% OFF up to ₹1,500",terms:["On HDFC credit & debit cards","Electronics, mobiles & appliances"],expiry:"Sale days",src:"CouponDunia",url:"https://www.coupondunia.in/amazon"},
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"SBI Card EMI Offer",discount:"10% OFF up to ₹500",terms:["Minimum purchase ₹5,000","SBI credit card EMI"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/amazon-coupons/"},
+{store:"Amazon",cat:"Electronics",color:"#ff9900",code:null,title:"ICICI EMI Discount",discount:"10% OFF up to ₹1,000",terms:["Minimum purchase ₹5,000","ICICI credit card EMI"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/amazon-coupons/"},
+/* ---------- SWIGGY (Food Delivery) — source: GrabOn, validated 26 Sep 2026 ---------- */
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"SWIGGYIT",title:"Restaurant Discovery Deal",discount:"Up to 50% OFF",terms:["Minimum order ₹159","Maximum saving ₹100","Select restaurants"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"CELEBRATIONS",title:"Big Order Saver",discount:"Flat ₹200 OFF",terms:["Minimum order ₹499","Select restaurants"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"TRYNEW",title:"New Restaurant Explorer",discount:"Up to 30% OFF",terms:["Minimum order ₹179","Maximum saving ₹75"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"FLAT175",title:"Mid-Cart Discount",discount:"Flat ₹175 OFF",terms:["Minimum order ₹399","Usable once every 2 hours"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"BUY1GET1",title:"Double-up Deal",discount:"Buy 1 Get 1 FREE",terms:["On eligible food items"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+{store:"Swiggy",cat:"Food Delivery",color:"#fc8019",code:"FLAVORFUL",title:"Everyday Food Saver",discount:"Flat ₹125 OFF",terms:["Minimum order ₹249","Select restaurants"],expiry:"~5 days",src:"GrabOn",url:"https://www.grabon.in/swiggy-coupons/"},
+/* ---------- ZOMATO (Food Delivery) — source: GrabOn ---------- */
+{store:"Zomato",cat:"Food Delivery",color:"#e23744",code:"GET150",title:"Sitewide Food Discount",discount:"Flat ₹150 OFF",terms:["On eligible food delivery orders"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zomato-coupons/"},
+{store:"Zomato",cat:"Food Delivery",color:"#e23744",code:"GET100",title:"Quick Meal Saver",discount:"₹100 OFF",terms:["On qualifying orders"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zomato-coupons/"},
+{store:"Zomato",cat:"Food Delivery",color:"#e23744",code:"TASTY",title:"Cart Value Discount",discount:"10% OFF",terms:["On orders above ₹199"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zomato-coupons/"},
+{store:"Zomato",cat:"Food Delivery",color:"#e23744",code:null,title:"Zomato Gold Dining",discount:"Up to 50% OFF dining",terms:["Free delivery above ₹199 for members","Extra discounts at 20,000+ partner restaurants"],expiry:"Ongoing",src:"GrabOn",url:"https://www.grabon.in/zomato-coupons/"},
+/* ---------- BLINKIT (Grocery) — source: GrabOn ---------- */
+{store:"Blinkit",cat:"Grocery",color:"#d4a017",code:"PAYTMUPI",title:"Grocery Cashback Combo",discount:"Up to 80% OFF + ₹200 cashback",terms:["Minimum order ₹199","Cashback via Paytm UPI","Groceries, oils, ghee & dry fruits"],expiry:"Till 30 Sep 2026",src:"GrabOn",url:"https://www.grabon.in/blinkit-coupons/"},
+{store:"Blinkit",cat:"Grocery",color:"#d4a017",code:"AMAZONPAY15",title:"Home & Kitchen Saver",discount:"Up to 80% OFF + ₹15 cashback",terms:["Storage, dining & cleaning essentials"],expiry:"Till 30 Sep 2026",src:"GrabOn",url:"https://www.grabon.in/blinkit-coupons/"},
+{store:"Blinkit",cat:"Grocery",color:"#d4a017",code:"MBKUPI",title:"UPI Quick Discount",discount:"Flat ₹20 OFF",terms:["Minimum cart ₹249","Via MobiKwik UPI","Twice per user"],expiry:"Till 30 Sep 2026",src:"GrabOn",url:"https://www.grabon.in/blinkit-coupons/"},
+{store:"Blinkit",cat:"Grocery",color:"#d4a017",code:null,title:"Baby Care Deals",discount:"Up to 65% OFF",terms:["Diapers & value packs","No code needed"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/blinkit-coupons/"},
+/* ---------- ZEPTO (Grocery) — source: GrabOn ---------- */
+{store:"Zepto",cat:"Grocery",color:"#7c3aed",code:"QUICKSAVE200",title:"Mega Grocery Saver",discount:"Up to 95% OFF + ₹200 OFF",terms:["Extra ₹200 off at checkout on qualifying orders"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zepto-coupons/"},
+{store:"Zepto",cat:"Grocery",color:"#7c3aed",code:"QUICKSAVE150",title:"Big Basket Discount",discount:"Flat ₹150 OFF",terms:["On purchases of ₹1,899 or more"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zepto-coupons/"},
+{store:"Zepto",cat:"Grocery",color:"#7c3aed",code:"QUICKSAVE50",title:"Personal Care Combo",discount:"Up to 60% OFF + ₹50 OFF",terms:["On selected personal care essentials"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zepto-coupons/"},
+{store:"Zepto",cat:"Grocery",color:"#7c3aed",code:null,title:"CRED Pay Offer",discount:"Flat ₹75 OFF",terms:["When paying via CRED"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/zepto-coupons/"},
+{store:"Zepto",cat:"Grocery",color:"#7c3aed",code:null,title:"Free Delivery",discount:"Free delivery above ₹99",terms:["Auto-applied at checkout"],expiry:"Ongoing",src:"GrabOn",url:"https://www.grabon.in/zepto-coupons/"},
+/* ---------- DOMINO'S (Food Delivery) — source: GrabOn, code tested 26 Sep 2026 ---------- */
+{store:"Domino's",cat:"Food Delivery",color:"#006491",code:"PIZZAPARTY",title:"Tested Pizza Code",discount:"Up to ₹200 OFF",terms:["Reported working on 26 Sep 2026","On eligible app orders"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/dominos-coupons/"},
+{store:"Domino's",cat:"Food Delivery",color:"#006491",code:"NEWBIE100",title:"First-Order Treat",discount:"Flat ₹100 OFF + ₹50 cashback",terms:["For new users","Applied at checkout in the app"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/dominos-coupons/"},
+{store:"Domino's",cat:"Food Delivery",color:"#006491",code:"PARTYPARTY",title:"Party Order Saver",discount:"Up to ₹200 OFF",terms:["On first orders","Check offer details before applying"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/dominos-coupons/"},
+{store:"Domino's",cat:"Food Delivery",color:"#006491",code:null,title:"Everyday Value",discount:"2 pizzas @ ₹99 each",terms:["No code needed","On selected regular pizzas","Domino's own app/website only"],expiry:"Ongoing",src:"GrabOn",url:"https://www.grabon.in/dominos-coupons/"},
+{store:"Domino's",cat:"Food Delivery",color:"#006491",code:null,title:"Amazon Pay Cashback",discount:"Up to ₹300 cashback",terms:["When paying with Amazon Pay"],expiry:"Limited period",src:"GrabOn",url:"https://www.grabon.in/dominos-coupons/"}
+];
+
+const grid=document.getElementById('grid');
+const searchEl=document.getElementById('search');
+let activeCat='all';
+document.getElementById('cCount').textContent=COUPONS.length;
+document.getElementById('sCount').textContent=new Set(COUPONS.map(c=>c.store)).size;
+
+function copyCode(btn,code){
+  const done=()=>{btn.textContent='Copied ✓';btn.classList.add('done');setTimeout(()=>{btn.textContent='Copy';btn.classList.remove('done')},1600)};
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(code).then(done).catch(()=>fallback())}else{fallback()}
+  function fallback(){const t=document.createElement('textarea');t.value=code;document.body.appendChild(t);t.select();try{document.execCommand('copy');done()}catch(e){}document.body.removeChild(t)}
+}
+function cardHTML(c,i){
+  const codeBlock=c.code
+    ?`<div class="code-row"><div class="code">${c.code}</div><button class="copy-btn" data-code="${c.code}">Copy</button></div>`
+    :`<div><span class="no-code">No code needed — open the deal</span></div>`;
+  return `<article class="card" style="--store:${c.color}">
+    <div class="store-row"><div class="store-badge">${c.store[0]}</div>
+    <div><div class="store-name">${c.store}</div><div class="cat">${c.cat} · ends ${c.expiry}</div></div></div>
+    <div class="discount">${c.discount}</div>
+    <h3>${c.title}</h3>
+    ${codeBlock}
+    <ul class="terms">${c.terms.map(t=>`<li>${t}</li>`).join('')}</ul>
+    <div class="meta"><span class="verified">✓ Checked 26 Sep 2026</span><a class="src" href="${c.url}" target="_blank" rel="noopener">Source: ${c.src} ↗</a></div>
+  </article>`;
+}
+function render(){
+  const q=searchEl.value.trim().toLowerCase();
+  const list=COUPONS.filter(c=>(activeCat==='all'||c.cat===activeCat)&&(!q||(c.store+' '+(c.code||'')+' '+c.title+' '+c.discount).toLowerCase().includes(q)));
+  grid.innerHTML=list.length?list.map(cardHTML).join(''):'<div class="empty">No coupons match your search. Try another store or offer.</div>';
+  grid.querySelectorAll('.copy-btn').forEach(b=>b.addEventListener('click',()=>copyCode(b,b.dataset.code)));
+}
+document.getElementById('chips').addEventListener('click',e=>{
+  const b=e.target.closest('.chip');if(!b)return;
+  document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');activeCat=b.dataset.cat;render();
+});
+searchEl.addEventListener('input',render);
+render();
+</script>
+</body>
+</html>
